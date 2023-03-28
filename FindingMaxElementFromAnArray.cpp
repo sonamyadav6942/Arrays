@@ -18,3 +18,16 @@ int main()
 	return 0;
 	
 }
+
+
+or
+	
+int max;
+int arr[5] = {38,18,22,16,10};
+max = arr[0];
+for(int i = 0; i < 5; i++)
+{
+    if(arr[i] > arr[0])
+    max = arr[i];
+}
+cout << "Maximum element from an array are : " << max << endl;
