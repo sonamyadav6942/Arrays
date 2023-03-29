@@ -32,3 +32,30 @@ int main()
 	cout << "Sum of all elements is " << sum << endl;
 	return 0;
 }
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arr[100];
+    int sum = 0;
+    int num;
+    cout << "Enter the size of an array : ";
+    cin >> num;
+    cout << "Enter an array element : " << endl;
+    for(int i = 0; i < num; i++)
+    {
+        cin >> arr[i];
+    }
+    for(int i = 0; i < num; i++)
+    {
+        sum = sum + arr[i];
+    }
+    cout << "Sum of an element in an array is : " << sum << endl;
+    return 0;
+}	
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
