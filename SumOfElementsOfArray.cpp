@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main()
 {
@@ -59,3 +59,25 @@ int main()
 }	
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int sum = 0;
+	int num, i, arr[100];
+	cout << "Enter number of element in an array:";
+	cin >> num;
+	cout << "Enter" << " " << num << " " << "elements:";
+	for(i = 0; i < num; i++)
+	{
+		cin >> arr[i];
+	} 
+	for(i = 0; i < num; i++)
+	{
+		sum = sum + arr[i];
+	}
+	cout << "Elements in an array are:" << sum <<endl;
+	return 0;
+}
